@@ -1,0 +1,22 @@
+Q1. What is the knowledge point of the test? Where is the offical document to the knowledge point?
+A1. The knowledge point is java basic string comparison concept and string operation (such as string.trim())
+
+Q2. Why the test failed at first?
+A2. Because the default output is not the expected test result, some are null and some are empty
+
+Q3. Why you corrected the test that way?
+A3.
+Test1: the modified string is different with original string, changed context
+Test2: string.trim() copy string with leading and trailing whitespace omitted
+Test3: string concat to a new string
+Test4~5: substring to get the desired part of string
+Test6~7: split to get desired words
+Test8: Just append necessary ascii char to the string
+Test9: Calculate the sum of character length to get the checksum
+Test10: Perform unicode with "\u"
+Test11: Used StringBuilder reverse function will be more efficient to write a for loop
+Test12: Just determine whether the result is true or false
+Test13: Just understand the output and write the string as expected text
+
+Q4. Do you have further questions on this knowledge point?
+A4. No.
